@@ -1,0 +1,8 @@
+.lazy-image {
+  opacity: 0;
+  transition: opacity .3s, transform 1s;
+
+  &-is-loaded {
+    opacity: 1;
+  }
+}
